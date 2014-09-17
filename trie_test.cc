@@ -2,7 +2,7 @@
 #include "trie.h"
 
 using namespace std;
-using namespace bdtaunu;
+using namespace custom_cpp_utilities;
 
 int main() {
 

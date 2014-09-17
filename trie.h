@@ -1,9 +1,8 @@
-#ifndef _BDTAUNU_TRIE_H_
-#define _BDTAUNU_TRIE_H_
+#ifndef _CUSTOM_CPP_UTILITIES_TRIE_H_
+#define _CUSTOM_CPP_UTILITIES_TRIE_H_
 
 // -------------------------------------------------------------------------
 // A custom trie class template. 
-// This was first written for the bdtaunu project. 
 //
 // This trie stores keys as null terminated strings formed from an 
 // alphabet. The value associated with the key is stored with the 
@@ -32,7 +31,7 @@
 #include <vector>
 #include <algorithm>
 
-namespace bdtaunu {
+namespace custom_cpp_utilities {
 
 template<typename A, typename V,
          A nullA, V nullV>

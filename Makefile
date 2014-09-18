@@ -1,6 +1,7 @@
 CXX ?= g++
 
 CXXFLAGS = -Wall -std=c++11
+CXXFLAGS += -I./
 
 $@ : $@.cc
 	$(CXX) $(CXXFLAGS) $< -o $%

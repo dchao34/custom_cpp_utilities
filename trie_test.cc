@@ -1,5 +1,5 @@
 #include <iostream>
-#include "trie.h"
+#include <custom_cpp_utilities/trie.h>
 
 using namespace std;
 using namespace custom_cpp_utilities;

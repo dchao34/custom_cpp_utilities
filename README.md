@@ -6,3 +6,5 @@ Classes
 -------
 
 trie.h: Template class for a trie. http://en.wikipedia.org/wiki/Trie
+
+CsvReader.h: Reads csv files by streaming over lines. See header for more info. 

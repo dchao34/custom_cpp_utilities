@@ -15,7 +15,6 @@ int main() {
     cout << reader.get("scale") << ", ";
     cout << reader.get("weight") << endl;
   }
-  cout << endl;
 
   return 0;
 }
